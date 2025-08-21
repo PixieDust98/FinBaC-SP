@@ -1,0 +1,66 @@
+# Input Parameters for Financial Model
+
+potato_input_kg = 800
+operating_days = 330
+fermentation_time = 72
+life_span = 20
+starch_yield = 0.155
+freeze_dry_weight_loss = 0.98
+oven_dry_weight_loss = 0.99
+freeze_drying_energy = 10
+oven_drying_energy = 3.3
+energy_cost_per_kwh = 0.09
+NaOH_for_purification = 0.2
+Water_for_washing = 0.1
+Water_treatment = 0.05
+bc_productivity = 0.07
+sugar_concentration = 40
+max_bioreactor_volume = 15000
+waste_starch_content = 0.40
+waste_sugar_content = 0.10
+hydrolysis_efficiency = 0.95
+
+ratios = [0.2, 0.6, 0.2]
+
+capex_breakdown = {
+    'Bioreactor': 300000,
+    'Freeze_dryer': 100000,
+    'Oven_dryer': 30000,
+    'Milling_equipment': 0,
+    'Filtration_system': 25000,
+    'Hydrolysis_system': 35000,
+    'Water_treatment': 0,
+    'Utilities_installation': 15000,
+    'Lab_equipment': 10000,
+    'Building_modifications': 25000,
+    'NaOH_storage_tank': 15000,
+    'Mixing_reactor': 20000,
+    'Washing_tanks': 18000,
+    'Neutralization_system': 12000,
+    'Pumps_piping': 10000,
+    'Spray_dryer': 0
+}
+
+opex_breakdown = {
+    'Potatoes': 160.0,
+    'HS_medium': 15,
+    'Hydrolysis_enzymes': 30,
+    'Electricity': 36,
+    'Water': 30,
+    'Steam': 20,
+    'Cooling': 15,
+    'Labor': 200,
+    'Quality_control': 40,
+    'Waste_disposal': 0,
+    'Maintenance': 242,
+    'Insurance': 25,
+    'Administrative': 40,
+    'Alkali_treatment_fixed': 4
+}
+
+prices = {
+    'starch': 0.50,
+    'wet_BC': 15.00,
+    'freeze_BC': 2800.00,
+    'oven_BC': 5100.00
+}
