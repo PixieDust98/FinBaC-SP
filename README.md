@@ -1,5 +1,8 @@
 # FinBaC-SP Financial Model & Interactive Web App
 
+## Author
+Poulami Mukherjee
+
 ## Overview
 
 This project provides a **flexible financial modeling toolkit** for evaluating bacterial cellulose (BC) production from potato starch waste. It includes:
@@ -102,7 +105,7 @@ If you use this toolkit in a publication or report, please cite the repository U
 
 ## License
 
-MIT License. See [LICENSE](LICENSE).
+GNU General Public License v3.0 License. See [LICENSE](LICENSE).
 
 ---
 
